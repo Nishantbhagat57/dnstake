@@ -8,10 +8,10 @@ import (
 	"github.com/logrusorgru/aurora"
 	"github.com/projectdiscovery/gologger"
 	"github.com/projectdiscovery/retryabledns"
-	"github.com/pwnesia/dnstake/internal/errors"
-	"github.com/pwnesia/dnstake/internal/option"
-	"github.com/pwnesia/dnstake/pkg/dnstake"
-	"github.com/pwnesia/dnstake/pkg/fingerprint"
+	"github.com/mailler0xa/dnstake/internal/errors"
+	"github.com/mailler0xa/dnstake/internal/option"
+	"github.com/mailler0xa/dnstake/pkg/dnstake"
+	"github.com/mailler0xa/dnstake/pkg/fingerprint"
 )
 
 // New to execute target hostname

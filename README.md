@@ -26,7 +26,7 @@ The ez way! You can download a pre-built binary from [releases page](https://git
 Very quick & clean!
 
 ```bash
-▶ go install github.com/pwnesia/dnstake/cmd/dnstake@latest
+go install github.com/mailler0xa/dnstake/cmd/dnstake@latest
 ```
 
 #### — or
@@ -34,10 +34,10 @@ Very quick & clean!
 Manual building executable from source code:
 
 ```bash
-▶ git clone https://github.com/pwnesia/dnstake
-▶ cd dnstake/cmd/dnstake
-▶ go build .
-▶ (sudo) mv dnstake /usr/local/bin
+git clone https://github.com/mailler0xa/dnstake
+cd dnstake/cmd/dnstake
+go build .
+sudo mv dnstake /usr/local/bin
 ```
 
 ## Usage

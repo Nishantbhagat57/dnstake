@@ -3,8 +3,8 @@ package main
 import (
 	"github.com/projectdiscovery/gologger"
 	"github.com/projectdiscovery/gologger/levels"
-	"github.com/pwnesia/dnstake/internal/option"
-	"github.com/pwnesia/dnstake/internal/runner"
+	"github.com/mailler0xa/dnstake/internal/option"
+	"github.com/mailler0xa/dnstake/internal/runner"
 )
 
 func init() {

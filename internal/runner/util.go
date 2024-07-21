@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/asaskevich/govalidator"
-	"github.com/pwnesia/dnstake/internal/errors"
+	"github.com/mailler0xa/dnstake/internal/errors"
 )
 
 func isStdin() bool {
