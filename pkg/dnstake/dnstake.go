@@ -22,7 +22,12 @@ func Verify(IPs []string, hostname string) (bool, error) {
 		retries = len(IPs)
 	}
 
-	res, err := Resolve(retryabledns.New(IPs, retries), hostname, 1)
+	client, clientErr := retryabledns.New(IPs, retries)
+	if clientErr != nil {
+		return false, clientErr
+	}
+	res, err := Resolve(client, hostname, 1)
+
 	if err != nil {
 		return false, err
 	}
