@@ -7,8 +7,8 @@ toolchain go1.22.1
 require (
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2
 	github.com/logrusorgru/aurora v2.0.3+incompatible
-	github.com/projectdiscovery/gologger v1.1.16
-	github.com/projectdiscovery/retryabledns v1.0.68
+	github.com/projectdiscovery/gologger v1.1.47
+	github.com/projectdiscovery/retryabledns v1.0.94
 	github.com/remeh/sizedwaitgroup v1.0.0
 )
 
