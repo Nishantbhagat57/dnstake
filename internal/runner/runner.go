@@ -1,8 +1,8 @@
 package runner
 
 import (
-	"github.com/mailler0xa/dnstake/internal/executor"
-	"github.com/mailler0xa/dnstake/internal/option"
+	"github.com/Nishantbhagat57/dnstake/internal/executor"
+	"github.com/Nishantbhagat57/dnstake/internal/option"
 	"github.com/remeh/sizedwaitgroup"
 )
 
