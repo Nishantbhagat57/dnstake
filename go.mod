@@ -1,4 +1,4 @@
-module github.com/mailler0xa/dnstake
+module github.com/Nishantbhagat57/dnstake
 
 go 1.21
 
