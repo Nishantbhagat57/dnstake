@@ -81,7 +81,10 @@ func exec(hostname string) (bool, fingerprint.DNS, error) {
 		DNS  = fingerprint.DNS{}
 	)
 
-	client := retryabledns.New([]string{"8.8.8.8:53", "1.1.1.1:53"}, 3)
+	client, clientErr := retryabledns.New([]string{"8.8.8.8:53", "1.1.1.1:53"}, 3)
+	if clientErr != nil {
+		return vuln, DNS, fmt.Errorf("failed to create DNS client: %v", clientErr)
+	}
 
 	q1, err := dnstake.Resolve(client, hostname, 2)
 	if err != nil {
